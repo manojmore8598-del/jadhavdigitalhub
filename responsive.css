@@ -1,0 +1,136 @@
+/* ============================================
+   Jadhav Digital Hub - Responsive Styles
+   ============================================ */
+
+/* 1400px */
+@media (max-width: 1400px) {
+  .container { max-width: 1140px; }
+}
+
+/* 1200px */
+@media (max-width: 1200px) {
+  .carousel-control-prev { left: 0; }
+  .carousel-control-next { right: 0; }
+  .gallery-grid { columns: 2; }
+}
+
+/* 992px */
+@media (max-width: 992px) {
+  .section-padding { padding: 70px 0; }
+
+  .hero-section { min-height: auto; padding: 110px 0 70px; }
+
+  .hero-image-card img { height: 340px; }
+
+  .float-icon { width: 44px; height: 44px; font-size: 1.1rem; }
+
+  .timeline::before { left: 24px; }
+  .timeline-item { width: 100%; left: 0 !important; padding: 0 0 30px 70px; text-align: left !important; }
+  .timeline-item:nth-child(odd) .timeline-dot,
+  .timeline-item:nth-child(even) .timeline-dot { left: 0; right: auto; }
+
+  .header-actions .btn-text { display: none; }
+
+  .page-banner { padding: 120px 0 60px; }
+
+  .cta-section { padding: 50px 28px; }
+
+  .policy-content { padding: 28px; }
+}
+
+/* 768px */
+@media (max-width: 768px) {
+  html { scroll-padding-top: 76px; }
+
+  .brand-tagline { display: none; }
+
+  .hero-buttons { flex-direction: column; }
+  .hero-buttons .btn { width: 100%; justify-content: center; }
+
+  .hero-image-wrap { margin-top: 2rem; }
+
+  .float-icon:nth-child(1) { left: 0; }
+  .float-icon:nth-child(2) { right: 0; }
+  .float-icon:nth-child(5) { right: 0; }
+
+  .about-preview-img img { height: 300px; }
+
+  .gallery-grid { columns: 1; }
+
+  .founder-section { padding: 28px; }
+
+  .contact-form { padding: 24px; }
+
+  .contact-page-map iframe { height: 280px; }
+
+  .contact-action-btns .btn-whatsapp,
+  .contact-action-btns .btn-call,
+  .contact-action-btns .btn-primary-custom {
+    flex: 1 1 100%;
+  }
+
+  .floating-inquiry span { display: none; }
+  .floating-inquiry { padding: 14px; border-radius: 50%; }
+
+  .footer-map iframe { height: 200px; }
+
+  .newsletter-form { flex-direction: column; }
+}
+
+/* 576px */
+@media (max-width: 576px) {
+  .section-padding { padding: 56px 0; }
+
+  .section-header { margin-bottom: 2rem; }
+
+  .hero-title { font-size: 1.85rem; }
+
+  .hero-image-card img { height: 260px; }
+
+  .stat-item h3 { font-size: 1.75rem; }
+
+  .testimonial-card { padding: 24px 18px; margin: 0; }
+
+  .cta-buttons { flex-direction: column; align-items: center; }
+  .cta-buttons .btn { width: 100%; max-width: 280px; justify-content: center; }
+
+  .floating-buttons { bottom: 16px; right: 16px; }
+  .floating-inquiry { bottom: 16px; left: 16px; }
+  #backToTop { bottom: 88px; right: 16px; }
+
+  .page-banner { padding: 100px 0 50px; }
+
+  .team-img { height: 220px; }
+}
+
+/* 425px */
+@media (max-width: 425px) {
+  .brand-name { font-size: 0.88rem; }
+  .brand-logo { width: 44px; height: 44px; }
+
+  .hero-badge { font-size: 0.78rem; padding: 6px 14px; }
+
+  .feature-card { padding: 24px 18px; }
+
+  .glass-card { padding: 20px; }
+
+  .contact-info-card { padding: 20px; }
+}
+
+/* 375px */
+@media (max-width: 375px) {
+  .hero-text { font-size: 0.9rem; }
+
+  .section-title { font-size: 1.45rem; }
+
+  .floating-btn { width: 48px; height: 48px; font-size: 1.2rem; }
+}
+
+/* 320px */
+@media (max-width: 320px) {
+  .hero-title { font-size: 1.6rem; }
+
+  .btn-primary-custom,
+  .btn-secondary-custom,
+  .btn-outline-custom { padding: 10px 18px; font-size: 0.85rem; }
+}
